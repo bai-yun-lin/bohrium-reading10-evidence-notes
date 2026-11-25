@@ -1,0 +1,1 @@
+{"case_id":"synthetic-timer","output_contract":{"type":"object","required":["paper_card","section_notes","knowledge_index"],"properties":{"paper_card":{"type":"object"},"section_notes":{"type":"array","minItems":3},"knowledge_index":{"type":"object"}}}}

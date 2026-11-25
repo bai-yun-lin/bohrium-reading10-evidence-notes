@@ -1,0 +1,11 @@
+Question
+Can a timer retain its calibration after warming up?
+
+Protocol
+The instrument was read both cold and after a ten-minute warm-up.
+
+Observations
+Table A. Elapsed time (ms), by instrument condition.
+Device            Cold        Warm
+Bench timer       12.8        10.5
+Only one instrument was available. Repeat-run variance was not reported.

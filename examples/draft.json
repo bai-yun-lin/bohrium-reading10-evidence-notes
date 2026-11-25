@@ -1,0 +1,13 @@
+{
+  "case_id":"synthetic-timer","title":"合成计时器笔记","status":"success",
+  "sections":["Question","Protocol","Observations"],
+  "notes":[
+    {"id":"question","section":"Question","kind":"研究问题","state":"supported","claim":"研究考察预热后能否保持校准。","tags":["校准"],"evidence":[{"doc":"d1","page":1,"quote":"retain its calibration after warming up?"}]},
+    {"id":"protocol","section":"Protocol","kind":"条件","state":"supported","claim":"比较冷态与预热十分钟后的读数。","tags":["预热","warm-up"],"evidence":[{"doc":"d1","page":1,"quote":"cold and after a ten-minute warm-up"}]},
+    {"id":"warm","section":"Observations","kind":"测量结果","state":"supported","claim":"这一台计时器在预热条件下的读数为 10.5 ms。","tags":["warm-up","读数"],"measurement":{"row_label":"Bench timer","column":"Warm","value":"10.5","unit":"ms","condition":"after a ten-minute warm-up"},"evidence":[{"doc":"d1","page":1,"view":"layout","role":"row","location":"Table A","quote":"Bench timer 12.8 10.5"},{"doc":"d1","page":1,"view":"layout","role":"header","quote":"Device Cold Warm"},{"doc":"d1","page":1,"role":"caption","quote":"Table A. Elapsed time (ms), by instrument condition."},{"doc":"d1","page":1,"role":"condition","quote":"cold and after a ten-minute warm-up"}]},
+    {"id":"scope","section":"Observations","kind":"限制","state":"supported","claim":"作者只观察了一台仪器。","tags":["样本"],"evidence":[{"doc":"d1","page":1,"quote":"Only one instrument was available."}]},
+    {"id":"variance","section":"Observations","kind":"材料缺口","state":"not_reported","claim":"无法从材料给出重复运行的方差。","basis":"原文在观测节明确说明没有报告运行间方差。","tags":["不确定性"],"evidence":[{"doc":"d1","page":1,"quote":"Repeat-run variance was not reported."}]}
+  ],
+  "aliases":{"预热":"warm-up"},"card":{"问题":["question"],"数据与方法":["scope","protocol"],"发现与结论":["warm"],"限制":["scope","variance"]},
+  "changes":[],"uncertainties":[]
+}
